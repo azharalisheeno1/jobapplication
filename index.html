@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="applybox">
+            <h1>Job <span> Application</span> Form</h1>
+            <form action="">
+                <div class="formcontainer">
+                    <div class="formcontrol">
+                        <label for="first_name"> First Name </label>
+                        <input type="text" id="first_name" name="first_name">
+                    </div>
+                    <div class="formcontrol">
+                        <label for="last_name"> Last Name </label>
+                        <input type="text" id="last_name" name="last_name">
+                    </div>
+                    <div class="formcontrol">
+                        <label for="email"> Enter Email </label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="formcontrol">
+                        <label for="jobrole"> Job Role </label>
+                        <select>
+                            <option value="">Select Job Role</option>
+                            <option value="frontend">Frontend Developer</option>
+                            <option value="backend">Backend Developer</option>
+                            <option value="fullstack">Full Stack Developer</option>
+                            <option value="uxui">UX UI Developer</option>
+
+                        </select>
+                    </div>
+
+
+                    <div class="textarea">
+                        <label for="address"> Address </label>
+                        <textarea name="address" id="address" cols="70" rows="4"></textarea>
+                    </div>
+
+                    <div class="formcontrol">
+                        <label for="city"> City </label>
+                        <input type="text" id="city" name="city">
+                    </div>
+
+
+
+                    <div class="formcontrol">
+                        <label for="pincode"> Pincode </label>
+                        <input type="number" id="pincode" name="pincode">
+                    </div>
+                    <div class="formcontrol">
+                        <label for="date"> Start Date </label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="formcontrol">
+                        <label for="cv"> Upload Your CV </label>
+                        <input type="file" name="cv" id="cv">
+                    </div>
+
+
+
+
+                </div>
+                <div class="buttoncontainer">
+                    <button type="submit">Apply Now</button>
+                </div>
+        </div>
+        </form>
+
+
+    </div>
+
+    </div>
+</body>
+
+</html>
